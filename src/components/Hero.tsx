@@ -1,13 +1,12 @@
 import { ArrowDown } from "lucide-react";
 import { Button } from "./ui/button";
-
 const Hero = () => {
   const scrollToProjects = () => {
-    document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('projects')?.scrollIntoView({
+      behavior: 'smooth'
+    });
   };
-
-  return (
-    <section className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
+  return <section className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
       {/* Subtle gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-accent/5" />
       <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-primary/3 to-transparent" />
@@ -17,9 +16,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-foreground">
             Lautaro Hernan Guardiano
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground font-light">
-            Estudiante de Economía y Finanzas
-          </p>
+          <p className="text-xl md:text-2xl text-muted-foreground font-light">Estudiante de Economía yFinanzas</p>
         </div>
         
         <div className="space-y-4">
@@ -30,32 +27,18 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-6">
-          <Button 
-            onClick={scrollToProjects}
-            size="lg"
-            className="gradient-primary hover:opacity-90 transition-smooth shadow-medium"
-          >
+          <Button onClick={scrollToProjects} size="lg" className="gradient-primary hover:opacity-90 transition-smooth shadow-medium mx-0">
             Ver Proyectos
           </Button>
-          <Button 
-            variant="outline"
-            size="lg"
-            className="hover:bg-secondary transition-smooth"
-          >
+          <Button variant="outline" size="lg" className="hover:bg-secondary transition-smooth">
             Descargar CV
           </Button>
         </div>
 
-        <button
-          onClick={scrollToProjects}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce"
-          aria-label="Scroll to projects"
-        >
+        <button onClick={scrollToProjects} className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce" aria-label="Scroll to projects">
           <ArrowDown className="w-6 h-6 text-muted-foreground" />
         </button>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
