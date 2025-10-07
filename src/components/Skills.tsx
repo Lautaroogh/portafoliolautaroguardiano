@@ -19,7 +19,7 @@ const skillCategories = [
     icon: Brain,
     title: "Inteligencia Artificial",
     skills: [
-      "Machine Learning",
+      "LLMs",
       "Scikit-learn",
       "Modelos Predictivos",
       "Google Colab",
@@ -30,6 +30,7 @@ const skillCategories = [
     icon: Zap,
     title: "Automatizaciones",
     skills: [
+      "N8N"
       "Google Apps Script",
       "Python Scripts",
       "APIs REST",
