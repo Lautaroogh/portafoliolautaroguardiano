@@ -35,7 +35,7 @@ const Hero = () => {
           </Button>
         </div>
 
-        <button onClick={scrollToProjects} className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce" aria-label="Scroll to projects">
+        <button onClick={scrollToProjects} className="animate-bounce pt-8" aria-label="Scroll to projects">
           <ArrowDown className="w-6 h-6 text-muted-foreground" />
         </button>
       </div>
