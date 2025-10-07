@@ -12,7 +12,6 @@ const skillCategories = [
       "Excel Avanzado",
       "Power BI",
       "Google Sheets",
-      "Tableau",
       "Estadística Aplicada"
     ]
   },
@@ -21,10 +20,8 @@ const skillCategories = [
     title: "Inteligencia Artificial",
     skills: [
       "Machine Learning",
-      "TensorFlow",
       "Scikit-learn",
       "Modelos Predictivos",
-      "Deep Learning",
       "Google Colab",
       "Jupyter Notebooks"
     ]
@@ -34,7 +31,6 @@ const skillCategories = [
     title: "Automatizaciones",
     skills: [
       "Google Apps Script",
-      "Power Automate",
       "Python Scripts",
       "APIs REST",
       "Web Scraping",
@@ -50,7 +46,6 @@ const skillCategories = [
       "Valoración de Activos",
       "Análisis de Riesgo",
       "Econometría",
-      "Bloomberg Terminal",
       "Mercados de Capitales"
     ]
   }

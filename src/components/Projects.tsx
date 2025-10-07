@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Card, CardContent } from "./ui/card";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "./ui/dialog";
 import { Badge } from "./ui/badge";
+import { Button } from "./ui/button";
 import { ExternalLink } from "lucide-react";
 import project1 from "@/assets/project1.jpg";
 import project2 from "@/assets/project2.jpg";
@@ -99,6 +100,16 @@ const Projects = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        <div className="flex justify-center mt-12">
+          <Button 
+            size="lg"
+            variant="outline"
+            className="hover:bg-accent hover:text-accent-foreground transition-smooth"
+          >
+            Todos mis Proyectos
+          </Button>
         </div>
 
         <Dialog open={!!selectedProject} onOpenChange={() => setSelectedProject(null)}>

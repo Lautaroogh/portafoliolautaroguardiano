@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© 2025 Analista Financiero. Todos los derechos reservados.</p>
+          <p>© 2025 Lautaro Hernan Guardiano. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

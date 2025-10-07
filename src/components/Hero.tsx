@@ -7,11 +7,15 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 gradient-subtle">
-      <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
+    <section className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
+      {/* Subtle gradient background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-accent/5" />
+      <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-primary/3 to-transparent" />
+      
+      <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in relative z-10">
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground">
-            Analista Financiero
+            Lautaro Hernan Guardiano
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground font-light">
             Estudiante de Finanzas
@@ -20,8 +24,8 @@ const Hero = () => {
         
         <div className="space-y-4">
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Especializado en análisis de datos, inteligencia artificial, 
-            automatizaciones y economía. Transformando datos en decisiones estratégicas.
+            Especializado en análisis de datos, inteligencia artificial y 
+            automatizaciones de procesos. Transformando datos en decisiones estratégicas.
           </p>
         </div>
 
