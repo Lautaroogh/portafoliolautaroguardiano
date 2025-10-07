@@ -26,7 +26,7 @@ const Footer = () => {
                 className="hover:bg-accent hover:text-accent-foreground transition-smooth"
               >
                 <a
-                  href="https://www.linkedin.com/in/tu-perfil"
+                  href="https://www.linkedin.com/in/guardianolautaro/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -41,7 +41,7 @@ const Footer = () => {
                 className="hover:bg-accent hover:text-accent-foreground transition-smooth"
               >
                 <a
-                  href="https://github.com/LautaroGuardiano"
+                  href="https://github.com/Lautaroogh"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
