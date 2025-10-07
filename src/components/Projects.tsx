@@ -25,7 +25,7 @@ const projects: Project[] = [
     title: "Análisis de Mercados Financieros",
     description: "Dashboard interactivo para análisis de tendencias de mercado usando datos históricos y modelos predictivos de machine learning.",
     image: project1,
-    tools: ["Python", "Pandas", "Google Colab", "TensorFlow", "Plotly"],
+    tools: ["Python", "Pandas", "Google Colab", "Plotly"],
     category: "Análisis de Datos"
   },
   {
@@ -33,7 +33,7 @@ const projects: Project[] = [
     title: "Automatización de Reportes Financieros",
     description: "Sistema automatizado para generación de reportes financieros mensuales con integración de múltiples fuentes de datos.",
     image: project2,
-    tools: ["Google Sheets", "Apps Script", "Power Query", "Excel"],
+    tools: ["Google Sheets", "Apps Script", "Excel"],
     category: "Automatización"
   },
   {
@@ -41,7 +41,7 @@ const projects: Project[] = [
     title: "Modelo de Predicción de Riesgo",
     description: "Implementación de modelo de ML para evaluación de riesgo crediticio con precisión del 87%.",
     image: project3,
-    tools: ["Python", "Scikit-learn", "Jupyter", "XGBoost"],
+    tools: ["Python", "Scikit-learn", "Jupyter"],
     category: "Inteligencia Artificial"
   },
   {
@@ -49,7 +49,7 @@ const projects: Project[] = [
     title: "Dashboard Económico Interactivo",
     description: "Visualización en tiempo real de indicadores económicos clave y análisis comparativo entre países.",
     image: project4,
-    tools: ["Google Sheets", "Data Studio", "APIs", "Google Colab"],
+    tools: ["Google Sheets", "APIs", "Google Colab"],
     category: "Economía"
   }
 ];
