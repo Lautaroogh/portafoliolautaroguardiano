@@ -30,7 +30,7 @@ const skillCategories = [
     icon: Zap,
     title: "Automatizaciones",
     skills: [
-      "N8N"
+      "N8N",
       "Google Apps Script",
       "Python Scripts",
       "APIs REST",
