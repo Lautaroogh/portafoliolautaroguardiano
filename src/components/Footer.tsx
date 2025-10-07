@@ -23,6 +23,7 @@ const Footer = () => {
                 variant="outline" 
                 size="icon"
                 className="hover:bg-accent hover:text-accent-foreground transition-smooth"
+                href="https://www.linkedin.com/in/guardianolautaro/"
               >
                 <Linkedin className="w-4 h-4" />
               </Button>
@@ -30,15 +31,9 @@ const Footer = () => {
                 variant="outline" 
                 size="icon"
                 className="hover:bg-accent hover:text-accent-foreground transition-smooth"
+                href="https://github.com/Lautaroogh"
               >
                 <Github className="w-4 h-4" />
-              </Button>
-              <Button 
-                variant="outline" 
-                size="icon"
-                className="hover:bg-accent hover:text-accent-foreground transition-smooth"
-              >
-                <FileText className="w-4 h-4" />
               </Button>
             </div>
           </div>
