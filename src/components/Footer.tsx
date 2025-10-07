@@ -19,29 +19,31 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-foreground">Enlaces</h3>
             <div className="flex gap-3">
-              <Button 
-                variant="outline" 
+              <Button
+                asChild
+                variant="outline"
                 size="icon"
                 className="hover:bg-accent hover:text-accent-foreground transition-smooth"
               >
                 <a
-                  href="https://www.linkedin.com/in/guardianolautaro/"
+                  href="https://www.linkedin.com/in/tu-perfil"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Linkedin className="w-4 h-4" />
                 </a>
-                
               </Button>
-              <Button 
-                variant="outline" 
+          
+              <Button
+                asChild
+                variant="outline"
                 size="icon"
                 className="hover:bg-accent hover:text-accent-foreground transition-smooth"
               >
                 <a
-                  href="https://github.com/Lautaroogh"
+                  href="https://github.com/LautaroGuardiano"
                   target="_blank"
-                  rel="noopener noreferrer">
+                  rel="noopener noreferrer"
                 >
                   <Github className="w-4 h-4" />
                 </a>
