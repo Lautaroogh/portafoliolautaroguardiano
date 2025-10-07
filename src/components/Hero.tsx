@@ -18,7 +18,7 @@ const Hero = () => {
             Lautaro Hernan Guardiano
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground font-light">
-            Estudiante de Finanzas
+            Estudiante de Economía y Finanzas
           </p>
         </div>
         

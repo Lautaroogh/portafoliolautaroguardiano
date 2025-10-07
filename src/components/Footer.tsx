@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-muted-foreground">
               <p className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                contacto@ejemplo.com
+                guardianolautaro@gmail.com
               </p>
             </div>
           </div>

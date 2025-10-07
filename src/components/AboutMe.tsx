@@ -24,7 +24,7 @@ const AboutMe = () => {
 
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Soy estudiante de Finanzas con una fuerte pasión por la tecnología y el análisis de datos. 
+              Soy estudiante de Economía y Finanzas con una fuerte pasión por la tecnología y el análisis de datos. 
               Me especializo en combinar conocimientos financieros con herramientas de inteligencia artificial 
               y automatización para crear soluciones innovadoras.
             </p>
